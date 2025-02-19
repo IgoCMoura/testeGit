@@ -6,14 +6,16 @@
         this.nome = n;
         this.idade = i;
     }
-
+    //Mostra o nome do animal
     mostrarNome(): string{
         return this.nome
     }
-
+    //Mostra a idade do animal
     mostrarIdade(): number{
         return this.idade;
     }
+
+    //Emite o som do animal
     emitirSom(): void{
         console.log("Eu vou emitir meu this.setNome, se prepare")
     }
