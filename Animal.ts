@@ -1,4 +1,4 @@
-﻿export class Animal{
+﻿export abstract class Animal{
     private nome: string;
     private idade: number;
 
@@ -16,9 +16,7 @@
     }
 
     //Emite o som do animal
-    emitirSom(): void{
-        console.log("Eu vou emitir meu this.setNome, se prepare")
-    }
+    abstract emitirSom(): void;
 
     setNome(novoNome: string): void{
         this.nome =novoNome;
